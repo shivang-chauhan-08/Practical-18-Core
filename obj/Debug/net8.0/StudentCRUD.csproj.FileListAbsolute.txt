@@ -142,3 +142,5 @@
 /Users/shivang/Desktop/Simform/Practcal - 18/StudentCRUD/obj/Debug/net8.0/StudentCRUD.pdb
 /Users/shivang/Desktop/Simform/Practcal - 18/StudentCRUD/obj/Debug/net8.0/StudentCRUD.genruntimeconfig.cache
 /Users/shivang/Desktop/Simform/Practcal - 18/StudentCRUD/obj/Debug/net8.0/ref/StudentCRUD.dll
+/Users/shivang/Desktop/Simform/Practcal - 18/StudentCRUD/bin/Debug/net8.0/AutoMapper.dll
+/Users/shivang/Desktop/Simform/Practcal - 18/StudentCRUD/bin/Debug/net8.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll

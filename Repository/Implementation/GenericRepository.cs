@@ -29,19 +29,19 @@ public class GenericRepository<T> : IGenericRepository<T> where T : class
         return entity;
     }
 
-    public async void Create(T entity)
+    public async Task Create(T entity)
     {
         await _dbSet.AddAsync(entity);
         await _context.SaveChangesAsync();
     }
 
-    public async void Update(T entity)
+    public async Task Update(T entity)
     {
         _dbSet.Update(entity);
         await _context.SaveChangesAsync();
     }
 
-    public async void Delete(int id)
+    public async Task Delete(int id)
     {
         var entity = await _dbSet.FindAsync(id);
         _dbSet.Remove(entity);
